@@ -1,0 +1,26 @@
+!! urxtv
+URxvt*font: xft:Hack:pixelsize=12.5
+!URxvt*font: xft:Source Code Pro:style=Regular:pixelsize=12.5
+!URxvt*font: xft:Iosevka:style=Regular:pixelsize=13
+!URxvt*font: xft:Inconsolata:style=Regular:pixelsize=14.5
+!URxvt*font: xft:Input Mono:style=Regular:pixelsize=12
+!URxvt*font: xft:Anonymous Pro:style=Regular:pixelsize=15
+
+
+
+URxvt.saveLines: 10000
+URxvt.scrollBar: False
+!URxvt*termName: urxvt
+!URxvt.depth: 32
+
+!! rofi
+rofi.color-enabled: true
+
+
+Xft.dpi:        100
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle: hintfull
+Xft.autohint: false
+Xft.lcdfilter: lcddefault
