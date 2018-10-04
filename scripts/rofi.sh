@@ -1,10 +1,16 @@
-#!/bin/bash
+git clone https://github.com/DaveDavenport/rofi
+cd rofi/
 
-sudo apt-get install libdbus-1-dev libx11-dev libxinerama-dev libxrandr-dev libxss-dev libglib2.0-dev libpango1.0-dev libgtk-3-dev libxdg-basedir-dev
+git submodule update --init
 
-cd /opt
+autoreconf -i
 
-git clone https://github.com/dunst-project/dunst.git
-cd dunst
-make
-sudo make install
+mkdir build
+
+cd build
+
+../configure
+
+make -j8
+
+sudo make install 

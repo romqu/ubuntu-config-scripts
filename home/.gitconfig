@@ -1,0 +1,8 @@
+[user]
+        email = roman.quistler@gmail.com
+        name = romqu
+        signingkey = F01E0DFF49BF704D
+[gpg]
+        program = gpg2
+[commit]
+        gpgsign = true

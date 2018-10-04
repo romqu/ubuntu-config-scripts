@@ -155,4 +155,29 @@ sudo apt-get update
 sudo apt-get install postgresql-10
 ```
 
+## keepassxc
+
+```bash
+sudo add-apt-repository ppa:phoerious/keepassxc
+sudo apt-get update
+sudo apt-get intall keepassxc
+```
+
+## other applications
+
+```bash
+ranger
+mpv
+lftp
+dropbox
+android-studio-canary
+intellij-eap
+discord
+slack
+riot-web
+anydesk
+chrome-unstable
+evolution
+```
+
 export GPG_TTY=$(tty)
