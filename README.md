@@ -166,6 +166,9 @@ sudo apt-get intall keepassxc
 ## other applications
 
 ```bash
+restic
+htop
+tor
 ranger
 mpv
 lftp
