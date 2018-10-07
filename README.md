@@ -183,4 +183,7 @@ chrome-unstable
 evolution
 ```
 
+```bash
 export GPG_TTY=$(tty)
+curl https://git.kroon.fi/romqu/ubuntu-install/archive/master.tar.gz
+```
