@@ -186,4 +186,5 @@ evolution
 ```bash
 export GPG_TTY=$(tty)
 curl https://git.kroon.fi/romqu/ubuntu-install/archive/master.tar.gz
+ssh -p 1994 snickers@snickers.h.7nerds.de
 ```
