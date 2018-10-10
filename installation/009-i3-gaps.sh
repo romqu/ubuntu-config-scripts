@@ -5,7 +5,7 @@ sudo apt-get install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util
 cd /opt
 
 # clone the repository
-git clone https://www.github.com/Airblader/i3 i3-gaps
+sudo git clone https://www.github.com/Airblader/i3 i3-gaps
 
 sudo chown -R roman:roman i3-gaps
 

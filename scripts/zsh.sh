@@ -5,11 +5,16 @@
 # Make script gives up on any error
 set -e
 
+cd /opt
+
 # Some packages may be missing
-sudo apt-get install -y git-core gcc make autoconf yodl libncursesw5-dev texinfo checkinstall
+#sudo apt-get install -y git-core gcc make autoconf yodl libncursesw5-dev texinfo checkinstall
 
 # Clone zsh repo and change to it
-git clone git://git.code.sf.net/p/zsh/code
+#sudo git clone git://git.code.sf.net/p/zsh/code zsh
+
+sudo chown -R roman:roman zsh
+
 cd zsh
 
 # Make configure
@@ -36,7 +41,7 @@ cd zsh
             LDFLAGS="-Wl,--as-needed -g -Wl,-Bsymbolic-functions -Wl,-z,relro"
 
 # Compile, test and install
-make -j4
+make -j8
 make check
 sudo make install
 

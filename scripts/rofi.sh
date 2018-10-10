@@ -1,6 +1,6 @@
 cd /opt
 
-git clone https://github.com/DaveDavenport/rofi
+sudo git clone https://github.com/DaveDavenport/rofi
 
 sudo chown -R roman:roman rofi
 

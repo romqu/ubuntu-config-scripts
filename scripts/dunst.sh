@@ -4,10 +4,10 @@ sudo apt-get install libdbus-1-dev libx11-dev libxinerama-dev libxrandr-dev libx
 
 cd /opt
 
-git clone https://github.com/dunst-project/dunst.git
+sudo git clone https://github.com/dunst-project/dunst.git
 
 sudo chown -R roman:roman dunst
 
 cd dunst
-make
+make -j8
 sudo make install

@@ -166,6 +166,7 @@ sudo apt-get intall keepassxc
 ## other applications
 
 ```bash
+i3-status
 restic
 htop
 tor
